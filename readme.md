@@ -1,0 +1,1 @@
+this is result for my study in DQLab course - Data Analist.  
