@@ -1,0 +1,31 @@
+Study Kasus : Penerapan OOP untuk menghitung total pengeluaran perusahaan
+
+Di perusahaan ini, 
+seorang analis data yang masuk umumnya berusia 21, 
+memiliki pendapatan senilai 6.500.000 dan insentif lembur senilai 100.000. 
+Kemudian, untuk seorang ilmuwan data yang masuk umumnya berusia 25, 
+memiliki pendapatan senilai 12.000.000, dan insentif lembur senilai 150.000. 
+
+Di sisi lain, untuk tenaga lepas, 
+hanya terdapat pendapatan umum senilai 4.000.000 untuk pembersih data 
+dan 2.500.000 untuk dokumenter teknis. 
+
+Berikut adalah data perusahaan beserta detail karyawan yang bekerja.
+Nama Perusahaan: ABC
+Alamat         : Jl. Jendral Sudirman, Blok 11
+Telepon        : (021) 95812XX
+
+Data :
+{(Nama: Ani, Usia: 25, Pekerjaan: Pemberih Data)
+(Nama: Budi, Usia: 18, Pekerjaan: Dokumenter Teknis)
+(Nama: Cici, Usia: -, Pekerjaan: Ilmuwan Data)
+(Nama: Didi, Usia: 32, Pekerjaan: Ilmuwan Data, Pendapatan: 20000000)
+(Nama: Efi, Usia: -, Pekerjaan: Analis Data)
+(Nama: Febi, Usia: 28, Pekerjaan: Analis Data, Pendapatan: 12000000)}
+
+Note: saat usia/pendapatan kosong maka usia/pendapatan mengikuti standar perusahaan.
+
+Tugas:
+1. Simulasikan dengan program yang telah dibuat.
+2. Cetak total pengeluaran yang dimiliki perusahaan 
+untuk menguji fungsionalitas konsep dan teknik polymorphism yang diterapkan.
