@@ -2,6 +2,7 @@ Tugas Praktek : Similarity Search
 memprediksi harga rumah di Tangerang berdasarkan luas tanah, luas bangunan, serta kedekatan lokasi dengan pusat kota.
 [['tanah', 'bangunan', 'jarak_ke_pusat', 'harga'], ['70', '50', '15', '500'], ['70', '60', '30', '400'], ['70', '60', '55', '300'], ['100', '50', '30', '700'], ['100', '70', '25', '1000'], ['100', '70', '50', '650'], ['120', '100', '20', '2000'], ['120', '80', '50', '1200'], ['150', '100', '50', '1800'], ['150', '90', '15', '3000']]
 
+
 Tugas 1
 Aku pun melanjutkan prosesnya dengan membaca file harga_rumah.txt dan merepresentasikan setiap data ke dalam tipe data 
 dictionary dan menampung keseluruhan data dalam sebuah list bernama harga_rumah:
@@ -18,20 +19,23 @@ Saat nilai atribut tanah 100, proses transformasi akan mengubah nilai atribut in
 nilai_transformasi = 100 - 70 / (150 - 70)
 Aku mulai mendapat solusi untuk mempermudah proses transformasi data. (normalisasi)
 
+
 Tugas 2
 Mula-mula,  aku akan membuat sebuah fungsi bernama get_all_specified_attribute yang menerima parameter list_of_dictionary 
 (tipe data list yang berisikan sekumpulan tipe data dictionary) dan specified_key (tipe data string). Fungsi akan mengembalikan 
 sebuah list yang berisikan seluruh atribut dengan kunci (key) specified_key (semua angka sesuai kata kunci).
 
-Tugas 3
 
+Tugas 3
 Kemudian, setelah berhasil membuat fungsi  tersebut, aku juga membuat fungsi min_value yang menerima parameter list_attributes 
 (berupa tipe data list) dan mengembalikan nilai terkecil dalam list_attributes dan max_value yang menerima parameter list_attributes 
 dan mengembalikan nilai terbesar dalam list_attributes.
 
+
 Tugas 4
 Selanjutnya aku membuat fungsi transform_attribute yang menerima parameter attr (sebuah bilangan), max_attr (sebuah bilangan) 
 dan min_attr (sebuah bilangan) yang mengembalikan nilai transformasi dari sebuah attribute.
+
 
 Tugas 5
 “Sudah cukup, Nja?” tanyaku saat Senja terdiam lama menelusuri hasil kerjaku.
@@ -40,15 +44,19 @@ Tugas 5
 (sebuah list yang berisikan tipe data dictionary) dan list_attribute_names (sebuah list yang berisikan tipe data string) 
 mengembalikan hasil transformasi data dari list_of_dictionary berdasarkan list_attribute_names telah dispesifikasikan.
 
+
 Tugas 6
 Dari data baru dan attr_info ini, Senja menyuruhku membuat fungsi transform_data yang menerima parameter data dan attr_info 
 dan mengembalikan nilai atribut dari data baru yang telah ditransformasikan.
 
+
 Tugas 7
 Setelah itu, Senja memintaku untuk membuat sistem prediksi harga berdasarkan nilai kemiripan atribut.
 
+
 Tugas 8
 Dan aku menggunakan semua fungsi yang telah aku definisikan dari Step 1 s/d Step 7.
+
 
 Hitung harga rumah yang telah ditransformasikan ke dalam variabel harga_rumah berikut dengan atributnya attr_info
 Gunakan variabel data untuk memprediksi harga rumah
