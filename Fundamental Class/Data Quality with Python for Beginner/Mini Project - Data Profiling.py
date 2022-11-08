@@ -15,7 +15,7 @@ print(uncleaned_raw.head())
 print('\nKolom dengan missing value:') 
 print(uncleaned_raw.isnull().any())
 
-#Persentase missing value
+#Persentase missing value pada kolom Quantity
 length_qty = len(uncleaned_raw['Quantity'])
 count_qty = uncleaned_raw['Quantity'].count()
 
