@@ -1,0 +1,18 @@
+Mini Project : Data Profiling & Data Cleansing
+
+Saya akan mengirimkan data dari cabang kita di daerah G. Tolong bersihkan saja dulu datanya, 
+detailnya yang harus kamu lakukan akan saya arahkan juga di email.”
+Tolong proses dataset terlampir yang  disimpan dalam bentuk csv bernama 'https://storage.googleapis.com/dqlab-dataset/uncleaned_raw.csv'.
+
+Case Studi : Data Profiling
+1. Import dataset csv ke variable bernama uncleaned_raw
+2. Inspeksi dataframe uncleaned_raw
+3. Check kolom yang mengandung missing value. Jika ada, kolom apakah itu dan berapa persen missing value pada kolom tersebut?
+4. Mengisi missing value tersebut dengan mean dari kolom tersebut!
+
+Case Studi : Data Cleansing - Part 1
+1. Mengetahui kolom yang memiliki outliers! Gunakan visualisasi dengan boxplot pada dataframe uncleaned_raw.
+
+Case Study: Data Cleansing - Part 2
+1. Melakukan proses removing outliers pada kolom UnitPrice.
+2. Checking duplikasi dan melakukan deduplikasi dataset tersebut!
