@@ -1,0 +1,27 @@
+Mini project : Promos for our e-commerce
+Divisi e-commerce kita ingin memprediksi apakah user- user yang sedang mengunjungi halaman website yang baru 
+akan mengklik banner promo (ads) di halaman tersebut atau tidak berdasarkan feature yang ada
+
+Adapun feature - feature dalam dataset ini adalah :
+1. 'Daily Time Spent on Site' : lama waktu user mengunjungi site (menit)
+2. 'Age' : usia user (tahun)
+3. 'Area Income' : rata - rata pendapatan di daerah sekitar user
+4. 'Daily Internet Usage' : rata - rata waktu yang dihabiskan user di internet dalam sehari (menit)
+5. 'Ad Topic Line' : topik/konten dari promo banner
+6. 'City' : kota dimana user mengakses website
+7. 'Male' : apakah user adalah Pria atau bukan
+8. 'Country' : negara dimana user mengakses website
+9. 'Timestamp' : waktu saat user mengklik promo banner atau keluar dari halaman website tanpa mengklik banner
+10. 'Clicked on Ad' : mengindikasikan user mengklik promo banner atau tidak (0 = tidak; 1 = klik).
+
+Tugas :
+1. Data eksplorasi dengan head(), info(), describe(), shape
+2. Data eksplorasi dengan dengan mengecek korelasi dari setiap feature menggunakan fungsi corr()
+3. Data eksplorasi dengan mengecek distribusi label menggunakan fungsi groupby() dan size()
+4. Data eksplorasi dengan visualisasi
+
+5. Handling missing value
+6. Pemodelan dengan Logistic Regression
+7. Melihat performansi model dengan menggunakan confusion matrix dan classification report
+
+8. Hasil Machine learning : Promos for our e-commerce
